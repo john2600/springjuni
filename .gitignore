@@ -4,3 +4,4 @@
 *.settings/
 *.springBeans
 *target/
+src/main/java/com/training/junit/spring/domain/Utility.java
