@@ -19,6 +19,10 @@ public class TicketServiceImpl implements TicketService {
 	public void setDao(TicketDao dao) {
 		this.dao = dao;
 	}
+	
+	/***
+	 * this class return a integer refered to a buy of tickey 
+	 */
 
 	public int buyTicket(String passangerName, String phone) {
 		Ticket ticket = new Ticket();
